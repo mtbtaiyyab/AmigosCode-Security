@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/api/v1/demo")
+@RequestMapping("/api/v1/auth/demo")
 public class DemoController {
 
     Logger log = LoggerFactory.getLogger(DemoController.class);
